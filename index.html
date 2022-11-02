@@ -1,0 +1,2267 @@
+<!doctype html>
+<html>
+    <head>
+        <title>The Korea Times - Home</title>
+        <link rel="shortcut icon" href="http://www.koreatimes.co.kr/www/images/koreatimes.ico?201904">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- 합쳐지고 최소화된 최신 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+        <!-- 부가적인 테마 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+        <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        
+        <!-- Mobile S -->
+        <style>
+            *{
+                padding:0 0 0 0;
+                margin:0 0 0 0;
+                }
+                .col-md-12{
+                    padding:0 5px;
+                }
+                .col-md-9{
+                    padding:0 0 0 0;
+                }
+                .col-md-8{
+                    padding:0 0 0 0;
+                }
+                .col-md-7{
+                    padding:0 0 0 0;
+                }
+                .col-md-6{
+                    padding:0 15px 0 0;
+                }
+                .col-md-5{
+                    padding:0 15px 0 0;
+                }
+                .col-md-4{
+                    padding:0 0 0 10px;
+                }
+                .col-md-3{
+                    padding:0 5px;
+                }
+                .col-md-2{
+                    border-right:1px solid#aaa;
+                    padding-bottom:138px;
+                }
+                .col-sm-12{
+                    padding:0 5px;
+                }
+                .col-sm-6{
+                    margin-bottom:15px;
+                    
+                }
+                .col-sm-6#bottomwrap{
+                    margin-bottom:15px;
+                    height:560px;
+                    
+                }
+                .col-sm-2{
+                    padding:0 0 0 5px;
+                }
+                
+
+            @media (max-width:768px){
+            .drops{
+                float:none;
+            }
+            .dropdown-menu{
+                top:35px;
+            }
+            .search{
+                left:-158px;
+            }
+            .btn-menu{
+                border:none;
+                border-radius:0;
+                color:#000;
+                background: none;
+                box-shadow:none;
+                padding: 5%;
+                vertical-align:middle;
+            }
+            .btn-sns{
+                border:none;
+                border-radius:0;
+                color:#000;
+                background: none;
+                box-shadow:none;
+                padding:5%;
+            }
+            .sns{
+                float:right;
+                padding:5%;
+            }
+            .menu{
+                float:left;
+                padding:5%;
+            }
+            .nav_h3#sm{
+                text-align:left;
+                margin-left:25px;
+            }
+            p{
+                margin:5px 0 25px 0;
+                font-size:18px;
+                line-height:28px;
+            }
+            .right-img{
+                width:100%;
+                height:auto;
+            }
+            .col-xs-12{
+                padding:0;
+            }
+            .col-xs-12#bottomwrap{
+                padding:0;
+                height:auto;
+            }
+            .latest{
+                margin-bottom:15px !important;
+            }
+            .navsm{
+                width:25%;
+                height:100%;
+                position:relative;
+            }
+            .container{
+                padding:0;
+            }
+            .img-responsive{
+                max-width: 100%;
+                height:auto;
+            }
+            .topnews{
+                width:100%;
+            }
+            .videoimg{
+                padding:0 5px 10px 5px;
+                width:100%;
+            }
+            .caption{
+                padding:10px 15px !important;
+            }
+            .media{
+                padding:10px 15px;
+            }
+            .nav_h3#bottom{
+                font-size:28px;
+                margin:15px;
+            }
+            .bottom-img{
+                width:100%;
+            }
+            .learning{
+                margin:3px 0;
+            }
+            .ad{
+                margin:10px 0;
+            }
+            
+            ul{
+                list-style:none;
+                margin:0 0 0 0;
+            }
+            ol li{
+                counter-increment:list;
+                list-style-type: none;
+                position:relative;
+                font-family:'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:32px;
+                margin:10px 0;
+            }
+            ol li::before{
+                color:teal;
+                content: counter(list)".";
+                padding: 5px;
+            }
+            li{
+                border:0;
+                float:left;
+                color:black;
+            }
+            hr{
+                margin:10px 0;
+                padding:0 0 0 0;
+                color:#5a5a5a;
+            }
+            a{
+                color:black;
+                padding:0 0 0 0;
+            }
+            a:hover{
+                text-decoration:none;
+                padding:0 0 0 0;
+                color:#007a4c;
+                background-color:#fff;
+            }
+            .row{
+                margin:0;
+                padding:0;
+            }
+            .rightnav{
+                font-size:11px;
+                line-height:18px;
+                font-weight:bold;
+            }
+            .rightnav_li{
+                margin:8px 6px;
+                float:right;
+            }
+            .leftnav_li{
+                margin:8px 6px;
+            }
+            .logo{
+                margin:auto;
+                padding:20px;
+                max-width:60%
+            }
+            .nav_h3{
+                margin:5px 0;
+                padding:0 0 0 15px;
+                font-size:15px;
+                line-height:24px;
+                font-weight:700;
+                text-align:center;
+            }
+            .nav_hr{
+                width:90px;
+                padding:0;
+                float:inherit;
+            }
+            .latest-news{
+                background-color:#70a500;
+                color:white;
+                font-size:12px;
+                line-height:18px;
+                font-weight:700;
+                margin:0;
+                padding:3px 10px;
+            }
+            .latest-article{
+                font-family:'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                background:linear-gradient(to right,#eee,#fff);
+                padding:2px 5px 2px 5px;
+                white-space: nowrap;
+                overflow:hidden;
+                text-overflow:ellipsis;
+            }
+            h1.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:32px;
+                line-height:110%;
+                font-weight:600;
+                margin:5px 0 18px 0;
+            }
+            h2.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:28px;
+                line-height:34px;
+                font-weight:bold;
+                margin:0 0 8px 0;
+            }
+            h3.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:24px;
+                line-height:32px;
+                margin:5px 5px 5px 0;
+            }
+            h4.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:15px;
+                line-height:110%;
+                margin:0 0 8px 0;
+            }
+            .h5.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:18px;
+                line-height:110%;
+                margin:0 0 8px 0;
+            }
+            
+            .relative{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:16px;
+                font-weight:500;
+                margin:10px 0 0 0;
+            }
+            .wrap.row{
+                padding:0;
+                margin:0 15px 30px 15px;
+            }
+            .article{
+                font-size:18px;
+                line-height:28px;
+                color:#5a5a5a;
+                overflow:hidden;
+                text-overflow:ellipsis;
+            }
+            .article_ul{
+                counter-increment:list;
+                list-style-type: disc;
+                position:relative;
+                font-size:14px;
+                line-height:18px;
+                display:block;
+                margin-left:10px;
+            }
+            .article_li{
+                display:block;
+                position:relative;
+                font-size:18px;
+                line-height:20px;
+                margin:15px 0;
+                float:unset;
+            }
+            ul li::before{
+                padding:50px !important;
+            }
+            .right_img{
+                float:right;
+            }
+            .left-img{
+                float:left;
+                margin: 0 10px 0 0;
+                width:30%;
+            }
+            .icon{
+                transform:scaleY(-1);
+                color:#70a500;
+                margin:0 5px 0 0;
+            }
+            .glyphicon-minus{
+                margin-left:-20px;
+                margin-right:5px;
+            }
+            .glyphicon-menu-hamburger{
+                margin-right:5px;
+            }
+            .nav_h3#video{
+                font-size:18px;
+                text-align:left ;
+                margin:15px 15px;
+            }
+            .headline#video{
+                margin:5px 5px 35px 5px;
+                font-size:24px;
+                color:white;
+            }
+            .video{
+                color:white;
+            }
+            .top10.row{
+                margin: 15px 0;
+                padding:15px;
+                border:1px solid#ddd;
+                border-radius: 8px;
+            }
+            .opi_sub{
+                font-family: Helvetica, Arial, sans-serif;
+                font-size:12px;
+                font-weight:bold;
+                color:#4f7400;
+                font-style:italic;
+            }
+            .opi_art{
+                line-height: 14px;
+                font-size:12px;
+                color:#5a5a5a;
+                
+            }
+            .opi.row{
+                margin:0 0 20px 0;
+            }
+            .video.row{
+                background-color:#777;
+                padding:20px;
+                margin:10px 0 35px 0;
+            }
+            .thumbnail{
+                border:none;
+                box-shadow:none;
+                margin:0;
+                padding:0;
+            }
+            .footmenu{
+                font-size:14px;
+                text-align:left;
+                margin:8px 0;
+                width:25%;
+                height:100%;
+            }
+            }
+            @media (min-width:768px){
+            .media{
+                padding:5px;
+            }
+            .nav_h3#sm{
+                text-align:left;
+                margin-left:0;
+            }
+            .sns{
+                float:right;
+            }
+            .right-img{
+                width:100%;
+                height:auto;
+            }
+            p{
+                margin:5px 0 25px 0;
+                font-size:18px;
+                line-height:28px;
+            }
+            .col-xs-12#bottomwrap{
+                padding:5px;
+                height:600px;
+            }
+            .latest{
+                margin:20px 10px !important;
+            }
+            .navsm{
+                width:25%;
+                height:100%;
+                position:relative;
+            }
+            .container{
+                padding:0;
+            }
+            .img-responsive{
+                max-width: 100%;
+                height:auto;
+            }
+            .topnews{
+                width:100%;
+                padding:5px;
+            }
+            .videoimg{
+                padding:0 5px 10px 5px;
+                width:100%;
+            }
+            .caption{
+                padding:10px 5px !important;
+            }
+            .nav_h3#bottom{
+                font-size:28px;
+                margin:15px;
+            }
+            .bottom-img{
+                width:100%;
+            }
+            .learning{
+                margin:0;
+            }
+            .ad{
+                margin:10px 0;
+            }
+            
+            ul{
+                list-style:none;
+                margin:0 0 0 0;
+            }
+            ol li{
+                counter-increment:list;
+                list-style-type: none;
+                position:relative;
+                font-family:'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:14px;
+                line-height:18px;
+                margin:5px 0;
+            }
+            ol li::before{
+                color:teal;
+                content: counter(list)".";
+                padding: 5px;
+            }
+            li{
+                border:0;
+                float:left;
+                color:black;
+            }
+            hr{
+                margin:10px 0;
+                padding:0 0 0 0;
+                color:#5a5a5a;
+            }
+            a{
+                color:black;
+                padding:0 0 0 0;
+            }
+            a:hover{
+                text-decoration:none;
+                padding:0 0 0 0;
+                color:#007a4c;
+                background-color:#fff;
+            }
+            .row{
+                margin:0;
+                padding:0;
+            }
+            .rightnav{
+                font-size:11px;
+                line-height:18px;
+                font-weight:bold;
+            }
+            .rightnav_li{
+                margin:8px 6px;
+                float:right;
+            }
+            .leftnav_li{
+                margin:8px 6px;
+            }
+            .logo{
+                margin:auto;
+                padding:40px;
+                max-width:60%
+            }
+            .nav_h3{
+                margin:5px 0;
+                padding:0 0 0 15px;
+                font-size:15px;
+                line-height:24px;
+                font-weight:700;
+                text-align:center;
+            }
+            .nav_hr{
+                width:90px;
+                padding:0;
+                float:inherit;
+            }
+            .latest-news{
+                background-color:#70a500;
+                color:white;
+                font-size:12px;
+                line-height:18px;
+                font-weight:700;
+                margin:0;
+                padding:3px 20px;
+            }
+            .latest-article{
+                font-family:'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                background:linear-gradient(to right,#eee,#fff);
+                padding:2px 40% 2px 20px;
+                white-space: nowrap;
+                overflow:hidden;
+                text-overflow:ellipsis;
+                
+            }
+            h1.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:32px;
+                line-height:110%;
+                font-weight:600;
+            }
+            h2.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:28px;
+                line-height:34px;
+                font-weight:bold;
+                margin:0 0 8px 0;
+            }
+            h3.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:24px;
+                line-height:32px;
+                margin:5px 5px 5px 0;
+            }
+            h4.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:15px;
+                line-height:110%;
+                margin:0 0 8px 0;
+            }
+            .h5.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:12px;
+                line-height:110%;
+                margin:0 0 8px 0;
+            }
+            
+            .relative{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:16px;
+                font-weight:500;
+                margin:10px 0 0 0;
+            }
+            .wrap.row{
+                padding:0;
+                margin:0 0 30px 0;
+            }
+            .article{
+                font-size:18px;
+                line-height:28px;
+                color:#5a5a5a;
+                overflow:hidden;
+                text-overflow:ellipsis;
+            }
+            .article_ul{
+                counter-increment:list;
+                list-style-type: disc;
+                position:relative;
+                font-size:14px;
+                line-height:18px;
+                display:block;
+                margin-left:10px;
+            }
+            .article_li{
+                display:block;
+                position:relative;
+                font-size:16px;
+                line-height:20px;
+                margin:8px 0;
+                float:unset;
+            }
+            ul li::before{
+                padding:50px !important;
+            }
+            .right_img{
+                float:right;
+            }
+            .left-img{
+                float:left;
+                margin: 0 10px 0 0;
+                width:30%;
+            }
+            .icon{
+                transform:scaleY(-1);
+                color:#70a500;
+                margin:0 5px 0 0;
+            }
+            .glyphicon-minus{
+                margin-left:-20px;
+                margin-right:5px;
+            }
+            .glyphicon-menu-hamburger{
+                margin-right:5px;
+            }
+            .nav_h3#video{
+                text-align:left ;
+                margin:5px 15px;
+            }
+            .headline#video{
+                margin:5px 5px 35px 5px;
+                font-size:24px;
+                color:white;
+            }
+            .video{
+                color:white;
+            }
+            .top10.row{
+                margin: 15px 0;
+                padding:15px;
+                border:1px solid#ddd;
+                border-radius: 8px;
+            }
+            .opi_sub{
+                font-family: Helvetica, Arial, sans-serif;
+                font-size:12px;
+                font-weight:bold;
+                color:#4f7400;
+                font-style:italic;
+            }
+            .opi_art{
+                line-height: 14px;
+                font-size:12px;
+                color:#5a5a5a;
+                
+            }
+            .opi.row{
+                margin:0 0 20px 0;
+            }
+            .video.row{
+                background-color:#777;
+                padding:20px;
+                margin:10px 0 35px 0;
+            }
+            .thumbnail{
+                border:none;
+                box-shadow:none;
+                margin:0;
+                padding:0;
+            }
+            .footmenu{
+                font-size:14px;
+                text-align:left;
+                margin:8px 0;
+                width:25%;
+                height:100%;
+            }
+            }
+            @media (min-width:992px){
+                .sns{
+                float:right;
+            }
+            .media{
+                margin:0 0 10px 0;
+                }
+            .right-img{
+                width:auto;
+                height:auto;
+            }
+            p{
+                margin:0;
+                font-size:14px;
+                line-height:20px;
+            }
+            .latest{
+                margin:20px 10px !important;
+            }
+            .navsm{
+                width:auto;
+                height:auto;
+                position:relative;
+                }
+            .container{
+                padding:0;
+            }
+            .img-responsive{
+                max-width: 100%;
+                height: auto;
+            }
+            .videoimg{
+                margin:0 5px 0 5px;
+                width:100%;
+            }
+            .caption{
+                padding:10px 5px !important;
+            }
+            .nav_h3#bottom{
+                font-size:16px;
+                margin:15px;
+            }
+            .bottom-img{
+                width:auto;
+            }
+            .ad{
+                margin:5px 0;
+            }
+            ul{
+                list-style:none;
+                margin:0 0 0 0;
+            }
+            ol li{
+                counter-increment:list;
+                list-style-type: none;
+                position:relative;
+                font-family:'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:14px;
+                line-height:18px;
+                margin:5px 0;
+            }
+            ol li::before{
+                color:teal;
+                content: counter(list)".";
+                padding: 5px;
+            }
+            li{
+                border:0;
+                float:left;
+                color:black;
+            }
+            hr{
+                margin:10px 0;
+                padding:0 0 0 0;
+                color:#5a5a5a;
+            }
+            a{
+                color:black;
+                padding:0 0 0 0;
+            }
+            a:hover{
+                text-decoration:none;
+                padding:0 0 0 0;
+                color:#007a4c;
+                background-color:#fff;
+            }
+            .row{
+                margin:0;
+                padding:0;
+            }
+            .rightnav{
+                font-size:11px;
+                line-height:18px;
+                font-weight:bold;
+            }
+            .rightnav_li{
+                margin:8px 6px;
+                float:right;
+            }
+            .leftnav_li{
+                margin:8px 6px;
+            }
+            .logo{
+                margin:auto;
+                padding:24px;
+            }
+            .nav_h3{
+                margin:5px 0;
+                padding:0 0 0 20px;
+                font-size:15px;
+                line-height:24px;
+                font-weight:700;
+                text-align:center;
+            }
+            .nav_h3#video{
+                text-align:left;
+                margin:15px;
+            }
+            .headline#video{
+                margin:5px 5px 20px 5px;
+                color:white;
+                font-size:18px;
+                line-height:24px;
+            }
+            .nav_hr{
+                width:90px;
+                padding:0;
+                float:inherit;
+            }
+            .latest-news{
+                background-color:#70a500;
+                color:white;
+                font-size:12px;
+                line-height:18px;
+                font-weight:700;
+                margin:0;
+                padding:3px 20px;
+            }
+            .latest-article{
+                font-family:'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                background:linear-gradient(to right,#eee,#fff);
+                padding:2px 40% 2px 20px;
+                
+            }
+            h1.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:28px;
+                line-height:110%;
+                font-weight:600;
+                margin-top:0;
+            }
+            h2.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:18px;
+                line-height:24px;
+                font-weight:bold;
+                margin:0 0 8px 0;
+            }
+            h3.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:18px;
+                line-height:110%;
+                margin:-5px 0 5px 0;
+            }
+            h4.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:15px;
+                line-height:110%;
+                margin:0 0 8px 0;
+            }
+            .h5.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:12px;
+                line-height:110%;
+                margin:0 0 8px 0;
+            }
+            
+            .relative{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:16px;
+                font-weight:500;
+                margin:10px 0 0 0;
+            }
+            .wrap.row{
+                padding:0;
+                margin:0 0 30px 0;
+            }
+            .article{
+                font-size:14px;
+                line-height:20px;
+                color:#5a5a5a;
+                overflow:hidden;
+                text-overflow:ellipsis;
+            }
+            .article_ul{
+                counter-increment:list;
+                list-style-type: disc;
+                position:relative;
+                font-size:14px;
+                line-height:18px;
+                display:block;
+            }
+            .article_li{
+                display:block;
+                position:relative;
+                line-height: 20px;
+                margin:8px 0;
+            }
+            ul li::before{
+                padding:50px !important;
+            }
+            .right_img{
+                float:right;
+            }
+            .left-img{
+                float:left;
+                margin: 0 10px 0 0;
+                width:auto;
+            }
+            .icon{
+                transform:scaleY(-1);
+                color:#70a500;
+                margin:0 5px 0 0;
+            }
+            .glyphicon-minus{
+                margin-left:-20px;
+                margin-right:5px;
+            }
+            .glyphicon-menu-hamburger{
+                margin-right:5px;
+            }
+            .top10.row{
+                margin: 5px 0;
+                padding:15px;
+                border:1px solid#ddd;
+                border-radius: 8px;
+            }
+            .opi_sub{
+                font-family: Helvetica, Arial, sans-serif;
+                font-size:12px;
+                font-weight:bold;
+                color:#4f7400;
+                font-style:italic;
+            }
+            .opi_art{
+                line-height: 14px;
+                font-size:12px;
+                color:#5a5a5a;
+                
+            }
+            .opi.row{
+                margin:0 0 20px 0;
+            }
+            .video.row{
+                background-color:#777;
+                padding:15px 20px;
+                margin:10px 0 35px 0;
+            }
+            .thumbnail{
+                border:none;
+                box-shadow:none;
+                margin:0;
+                padding:0;
+            }
+            .footmenu{
+                text-align:left;
+                font-size:14px;
+                margin:10px 0;
+                width:20%;
+                height:100%;
+            }
+            .nav_h3#sm{
+                text-align:left;
+                margin-left:-10px;
+            }
+            }
+            @media (min-width:1200px){
+                .sns{
+                float:right;
+            }
+            .media{
+                margin:0 0 15px 0;
+            }
+                p{
+                margin:0;
+                font-size:14px;
+                line-height:20px;
+            }
+            .right-img{
+                width:100%;
+                height:auto;
+            }
+            .navsm{
+                width:auto;
+                height:auto;
+                position:relative;
+                }
+            .container{
+                padding:0;
+            }
+            .img-responsive{
+                max-width: 100%;
+                height: auto;
+            }
+            .videoimg{
+                margin:0 5px 0 5px;
+                width:100%;
+            }
+            .ad{
+                margin:5px 0;
+            }
+            ul{
+                list-style:none;
+                margin:0 0 0 0;
+            }
+            ol li{
+                counter-increment:list;
+                list-style-type: none;
+                position:relative;
+                font-family:'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:14px;
+                line-height:18px;
+                margin:5px 0;
+            }
+            ol li::before{
+                color:teal;
+                content: counter(list)".";
+                padding: 5px;
+            }
+            li{
+                border:0;
+                float:left;
+                color:black;
+            }
+            hr{
+                margin:10px 0;
+                padding:0 0 0 0;
+                color:#5a5a5a;
+            }
+            a{
+                color:black;
+                padding:0 0 0 0;
+            }
+            a:hover{
+                text-decoration:none;
+                padding:0 0 0 0;
+                color:#007a4c;
+                background-color:#fff;
+            }
+            .row{
+                margin:0;
+                padding:0;
+            }
+            .rightnav{
+                font-size:11px;
+                line-height:18px;
+                font-weight:bold;
+            }
+            .rightnav_li{
+                margin:8px 6px;
+                float:right;
+            }
+            .leftnav_li{
+                margin:8px 6px;
+            }
+            .logo{
+                margin:auto;
+                padding:24px;
+            }
+            .nav_h3{
+                margin:5px 0;
+                padding:0 0 0 20px;
+                font-size:15px;
+                line-height:24px;
+                font-weight:700;
+                text-align:center;
+            }
+            .nav_h3#video{
+                text-align:left;
+                margin:15px;
+            }
+            .nav_h3#sm{
+                text-align:left;
+                margin-left:-7px;
+            }
+            .headline#video{
+                margin:5px 5px 20px 5px;
+                color:white;
+                font-size:18px;
+                line-height:24px;
+            }
+            .nav_hr{
+                width:90px;
+                padding:0;
+                float:inherit;
+            }
+            .latest-news{
+                background-color:#70a500;
+                color:white;
+                font-size:12px;
+                line-height:18px;
+                font-weight:700;
+                margin:0;
+                padding:3px 20px;
+            }
+            .latest-article{
+                font-family:'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                background:linear-gradient(to right,#eee,#fff);
+                padding:2px 40% 2px 20px;
+                
+            }
+            h1.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:28px;
+                line-height:110%;
+                font-weight:600;
+                margin-top:0;
+            }
+            h2.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:18px;
+                line-height:24px;
+                font-weight:bold;
+                margin:0 0 8px 0;
+            }
+            h3.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:18px;
+                line-height:110%;
+                margin:-5px 0 5px 0;
+            }
+            h4.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:15px;
+                line-height:110%;
+                margin:0 0 8px 0;
+            }
+            .h5.headline{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:12px;
+                line-height:110%;
+                margin:0 0 8px 0;
+            }
+            
+            .relative{
+                font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, 'Noto Serif KR', serif;
+                font-size:16px;
+                font-weight:500;
+                margin:10px 0 0 0;
+            }
+            .wrap.row{
+                padding:0;
+                margin:0 0 30px 0;
+            }
+            .article{
+                color:#5a5a5a;
+                overflow:hidden;
+                text-overflow:ellipsis;
+            }
+            .article_ul{
+                counter-increment:list;
+                list-style-type: disc;
+                position:relative;
+                font-size:14px;
+                line-height:18px;
+                display:block;
+            }
+            .article_li{
+                display:block;
+                position:relative;
+            }
+            ul li::before{
+                padding:50px !important;
+            }
+            .right_img{
+                float:right;
+            }
+            .left-img{
+                float:left;
+                margin: 0 10px 0 0;
+            }
+            .icon{
+                transform:scaleY(-1);
+                color:#70a500;
+                margin:0 5px 0 0;
+            }
+            .glyphicon-minus{
+                margin-left:-20px;
+                margin-right:5px;
+            }
+            .glyphicon-menu-hamburger{
+                margin-right:5px;
+            }
+            .top10.row{
+                margin: 5px 0;
+                padding:15px;
+                border:1px solid#ddd;
+                border-radius: 8px;
+            }
+            .opi_sub{
+                font-family: Helvetica, Arial, sans-serif;
+                font-size:12px;
+                font-weight:bold;
+                color:#4f7400;
+                font-style:italic;
+            }
+            .opi_art{
+                line-height: 14px;
+                font-size:12px;
+                color:#5a5a5a;
+                
+            }
+            .opi.row{
+                margin:0 0 20px 0;
+            }
+            .video.row{
+                background-color:#777;
+                padding:15px 20px;
+                margin:10px 0 35px 0;
+            }
+            .thumbnail{
+                border:none;
+                box-shadow:none;
+                margin:0;
+                padding:0;
+            }
+            .footmenu{
+                text-align:left;
+                font-size:12px;
+                margin:10px 0;
+                width:20%;
+                height:100%;
+            }
+            .footer{
+                margin:auto;
+            }
+            .footer_t{
+                text-align:center;
+                margin:5px 20px;
+            }
+            .footer_b{
+                text-align:center;
+                margin:5px 20px;
+            }
+            }
+                
+            
+        </style>
+        <div class="container">
+            <div class="row hidden-xs">
+                <ul>
+                    <li style="margin-right:4px;">
+                        <a href="#">
+                            <img class="img-responsive" src="http://www.koreatimes.co.kr/www2/img/gn_search_2019.png" alt="">
+                        </a>
+                    </li>
+                    <li class="leftnav_li">
+                        <a class="facebook" href="#">
+                            <img class="img-responsive" src="http://www.koreatimes.co.kr/www2/img/bt_fb_on_2019.png" alt="">
+                        </a>
+                    </li>
+                    <li class="leftnav_li">
+                        <a class="twitter" href="#">
+                            <img class="img-responsive" src="http://www.koreatimes.co.kr/www2/img/bt_twitter_on_2019.png" alt="">
+                        </a>
+                    </li>
+                    <li class="leftnav_li">
+                        <a class="youtube" href="#">
+                            <img class="img-responsive" src="http://www.koreatimes.co.kr/www2/img/bt_youtube_on_2019.png" alt="">
+                        </a>
+                    </li>
+                    <li class="leftnav_li">
+                        <a class="ilbo" href="#">
+                            <img class="img-responsive" src="http://www.koreatimes.co.kr/www2/img/bt_hankookilbo_on_2019.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="rightnav">
+                    <li class="rightnav_li">
+                        <a href="#">
+                            Site Map
+                        </a>
+                    </li>
+                    <li class="rightnav_li">
+                        <a href="#">
+                            E-paper
+                        </a>
+                    </li>
+                    <li class="rightnav_li">
+                        <a href="#">
+                            Subscribe
+                        </a>
+                    </li>
+                    <li class="rightnav_li">
+                        <a href="#">
+                            Register
+                        </a>
+                    </li>
+                    <li class="rightnav_li">
+                        <a href="#">
+                            LogIn
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+        <hr style="margin:0; padding:0; border-style:dashed;">
+        <div class="container">
+            <div class="row">
+                    <div class="btn-group visible-xs menu">
+                            <button type="button" class="btn btn-default dropdown-toggle btn-menu" data-toggle="dropdown" aria-expanded="false">
+                                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                              <li class="drops"><a href="#">North Korea</a></li>
+                              <li class="drops"><a href="#">National</a></li>
+                              <li class="drops"><a href="#">Biz&Tech</a></li>
+                              <li class="drops"><a href="#">Finance</a></li>
+                              <li class="drops"><a href="#">Opinion</a></li>
+                              <li class="drops"><a href="#">Lifestyle</a></li>
+                              <li class="drops"><a href="#">Entertainment</a></li>
+                              <li class="drops"><a href="#">Sports</a></li>
+                              <li class="drops"><a href="#">World</a></li>
+                              <li class="drops"><a href="#">Video</a></li>
+                              <li class="drops"><a href="#">Photos</a></li>
+                              <li class="drops divider"></li>
+                              <li class="drops"><a href="#">All</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group visible-xs sns">
+                            <button type="button" class="btn btn-default dropdown-toggle btn-sns" data-toggle="dropdown" aria-expanded="false">
+                                    <span class="glyphicon glyphicon-user"></span>
+                            </button>
+                            <ul class="dropdown-menu search" role="menu">
+                                <li>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search the Koreatimes">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                                        </span>
+                                        
+                                    </div><!-- /input-group -->
+                                </li>
+                                <li class="drops"><a href="#">Facebook</a></li>
+                                <li class="drops"><a href="#">Twitter</a></li>
+                                <li class="drops"><a href="#">YouTube</a></li>
+                                <li class="drops"><a href="#">Opinion</a></li>
+                                <li class="drops"><a href="#">HanKook Ilbo</a></li>
+                                <li class="drops divider"></li>
+                                <li class="drops"><a href="#">Subscribe</a></li>
+                                <li class="drops"><a href="#">E-Paper</a></li>
+                                <li class="drops"><a href="#">Site Map</a></li>
+                                <li class="drops"><a href="#">Register</a></li>
+                                <li class="drops"><a href="#">LogIn</a></li>
+                            </ul>
+                        </div>
+                <a href="#"><img class="img-responsive logo" src="images/KT_logo.png" alt=""></a>
+            </div>
+            <div class="row">
+                <nav>
+                    
+                    <ul class="nav hidden-xs">
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#">North Korea</a></h3>
+                        </li>
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#">National</a></h3>
+                        </li>
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#">Biz&Tech</a></h3>
+                        </li>
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#">Finance</a></h3>
+                        </li>
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#">Opinion</a></h3>
+                        </li>
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#">Lifestyle</a></h3>
+                        </li>
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#">Entertainment</a></h3>
+                        </li>
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#">Sports</a></h3>
+                        </li>
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#">World</a></h3>
+                        </li>
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#">Video</a></h3>
+                        </li>
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#">Photos</a></h3>
+                        </li>
+                        <li class="navsm">
+                            <h3 class="nav_h3"><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span>All</a></h3>
+                        </li>
+                    </ul>
+                    
+                </nav>
+            </div>
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 latest">
+                <ul>
+                    <li><h5 class="latest-news">Latest News</h5></li>
+                    <li class="latest-article">US to request Seoul's restraint on Korea-Japan row</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img class="img-responsive topnews" src="http://img.koreatimes.co.kr/upload/thumbnailV2/9b0df4152d59426fbdb9b5a8b183a8bb.jpg/dims/resize/740/optimize" alt="...">
+                            </a>
+                            <div class="caption">
+                                <a href="#">
+                                    <h1 class="headline">
+                                        Pirates attack S. Korean cargo ship near Singapore Strait
+                                    </h1>
+                                </a>
+                                <a class="article">
+                                    <p>
+                                        government officials in Busan said. The pirates armed with guns and other weapons assaulted sailors of the South Korean-registered vessel, 
+                                    the 44,132-ton CK Bluebell, in the sea about 100 miles from the entrance of the strait at 4:25 a.m. before making off with $13,000 in cash, 
+                                    according to the officials at the Ministry of Maritime Affairs and Fisheries. No casualties were reported from the attack, they said, 
+                                    noting some sailors sustained minor injuries, such as bruises, during their confrontations with the pirates.
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                <div class="row col-md-12 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img class="img-responsive topnews" src="http://img.koreatimes.co.kr/upload/thumbnailV2/a2878faf7bf347fdab92ced36cf7c4ed.jpg/dims/resize/270/optimize" alt="...">
+                        </a>
+                        <div class="caption">
+                            <a href="#">
+                                <h3 class="headline">
+                                    Sales of Japanese beer, noodles, snacks plunge amid trade dispute
+                                </h3>
+                            </a>
+                            <a class="article">
+                                <p>
+                                    Consumers are turning away from Japanese products like beer, instant noodles a...
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hidden-sm">
+                <div class="row col-md-12 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img class="img-responsive topnews" src="http://img.koreatimes.co.kr/upload/thumbnailV2/590K2019072100087_1095a53651dbf.jpg/dims/resize/270/optimize" alt="...">
+                        </a>
+                        <div class="caption">
+                            <a href="#">
+                                <h3 class="headline">
+                                    [INTERVIEW] 'Everyday Hero' exhibition shows imperfect, human sides of superhero
+                                </h3>
+                            </a>
+                            <a class="article">
+                                <p>
+                                    Swedish artist Andreas Englund, 44, visited Seoul recently to attend his first...
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="row col-md-12 col-sm-4 col-xs-12">
+                        <div class="media">
+                            <a href="#">
+                                <h3 class="media-heading headline">
+                                    Ronaldo to get wet in Seoul match this week
+                                </h3>
+                            </a>
+                            <div class="media-body">
+                                <a class="article" href="#">
+                                    If world football icon Cristiano Ronaldo thought his upcoming match against Korean professional footballers was manageable, he now faces a...
+                                </a>
+                            </div>
+                            <div class="media-right">
+                                <a href="#">
+                                    <img class="img-responsive media-object" src="http://img.koreatimes.co.kr/upload/thumbnailV2/590Y2019071304983_172787220ca96.jpg/dims/resize/130/optimize" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hidden-sm">
+                    <div class="row col-md-12 col-sm-4 col-xs-12">
+                        <div class="media">
+                            <a href="#">
+                                <h3 class="media-heading headline">
+                                    Pro-democracy activist urges umbrella labor to drop vested rights
+                                </h3>
+                            </a>
+                            <div class="media-body">
+                                <a class="article" href="#">
+                                    President Moon Jae-in and his administration are advised not to underestimate the “high-handed and militant” attitude of the nation's larg...
+                                </a>
+                            </div>
+                            <div class="media-right">
+                              <a href="#">
+                                <img class="img-responsive media-right media-object" src="http://img.koreatimes.co.kr/upload/thumbnailV2/590K2019071701399_2bdbed63574c8.jpg/dims/resize/130/optimize" alt="...">
+                              </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hidden-sm">
+                    <div class="row col-md-12 col-sm-4 col-xs-12">
+                        <div class="media">
+                            <a href="#">
+                                <h3 class="media-heading headline">
+                                Tougher regulations take effect on suicide instigation online
+                                </h3>
+                            </a>
+                            <div class="media-body">
+                                <a class="article" href="#">
+                                    People who use the internet to share suicide tips or attempt to make suicide pacts will face a prison sentence, according to the new Suici...
+                                </a>
+                                <div class="media-right">
+                                    <a href="#">
+                                        <img class="img-responsive media-object right-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/590K2019071800284_4b6ebf8cfd863.jpg/dims/resize/130/optimize" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <div class="col-md-6 col-sm-6 col-xs-12 learning"><a href="#"><img class="img-responsive" src="http://img.koreatimes.co.kr/banner/bn_LK_ani_20190404_1.gif" alt=""></a></div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 learning"><a href="#"><img class="img-responsive" src="http://img.koreatimes.co.kr/banner/bn_LE_w430_20190409.jpg" alt=""></a></div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12 learning"><a href="#"><img class="img-responsive" src="http://img.koreatimes.co.kr/banner/bn_DailyFortune_w300_20190404.jpg?1" alt=""></a></div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+            <div class="col-md-9 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Ronaldo to get wet in Seoul match this week</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/590Y2019071304983_172787220ca96.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">If world football icon Cristiano Ronaldo thought his upcoming match against Korean professional footballers was manageable, he now faces a game in the rain.</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">US to request Seoul's restraint on Korea-Japan row</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/92958a44e69c4ec4b16dbf47274ecb46.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">U.S. National Security Adviser John Bolton is expected to convey Washington's message that nullifying a military agreement between Seoul and Tokyo “isn't desirable” in terms of m...</a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><h3 class="relative"><span class="glyphicon glyphicon-share-alt icon"></span>Protesters condemn Japan's export curbs</h3></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><h3 class="relative"><span class="glyphicon glyphicon-share-alt icon"></span>Trump in dilemma over Korea, Japan trade scuffle</h3></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><h3 class="relative"><span class="glyphicon glyphicon-share-alt icon"></span>'We have to stand together to counter Japan'</h3></a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Hyundai Mobis develops camera monitors to replace side mirrors</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/bf62fdffd37d4eccae19a09bea3267f5.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">Hyundai Mobis has developed a camera monitor system that is designed to replace side-view mirrors in “future” vehicles, the company said Sunday.</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Apple, Amazon concerned about Japan's export curbs</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/cc799d50e2d447cfb2394d69e5a42a7d.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">Apple, Amazon, Sony, Dell and other global tech companies are increasingly concerned about the adverse effects of Japan's restrictions on exports to Korea of high-tech materials,...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">MSD Korea hit for 'excessive' employee monitoring</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/7f1d02b15f6d4a6ba6d30533b527679c.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">MSD Korea has been causing controversy over its monitoring of sales employees who complain of “excessive surveillance” of their activities and infringement of their privacy, acco...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Wanna One Taiwanese member wants to leave Cube</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/6b472fa55fbe46219f14dfb72eb98e9f.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">Lai Kuan Lin, a Taiwanese member of defunct K-pop boy band Wanna One, has asked to end his contract with Cube Entertainment, according to the agency Saturday. The agency said it ...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Calls grow to legalize abortion drugs</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/0ada5ac4aa5440ee934881b75b4a8ab1.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">Concern is rising over the growing illegal online sale of “abortion drugs,” the effects of which have not been proven. With a law banning abortion ruled unconstitutional earlier ...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Korea looking good for 2023 Women's World Cup</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/b399709d252740ea8c307dfc7305fce4.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">The Korea Football Association (KFA) may be feeling satisfied at the moment. The U-20 team reached the final of the World Cup last month, showing that there is plenty of young ta...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">More than 10,000 elderly drivers return licenses</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/049a45879d1a4b338bf80cfa12cad22a.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">More than 10,000 senior drivers have returned their driver's licenses as part of Seoul City's program aimed at reducing traffic accidents caused by elderly drivers, the city gove...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">A feud for the ages</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/590K2019072100023_32ea87fc13956.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">The dispute between South Korea and Japan has broken its banks, and the rising waters are eroding paths that once allowed nations to meet half way. As the flood waters swell, to ...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Hong Kong rally calls for police to be respected</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/590Y2019072005047_2fd1a6ab15c7.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">Hundreds of thousands of government supporters gathered beside the administration's headquarters to show solidarity and support for police on Saturday, a day before yet another m...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">SK Innovation acquires 35% stake in Myanmar oil distributor</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/917f5e86abdc42168f33963d054e7fd8.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">SK Innovation has acquired a 35 percent stake in Myanmar's second-largest petroleum product distributor for 150 billion won ($127 million) through its two subsidiaries in a bid t...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">MSD Korea hit for 'excessive' employee monitoring</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/7f1d02b15f6d4a6ba6d30533b527679c.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">MSD Korea has been causing controversy over its monitoring of sales employees who complain of “excessive surveillance” of their activities and infringement of their privacy, acco...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Bank CEOs bracing for tougher conditions in 2nd half</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/c3753b8199e2443ab24a5d8164be6733.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">Leaders of major banks pledged to boost performance for the latter half of the year at executive-level meetings held last week, amid an increasingly tough environment for the ban...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Taxpayer hurt by NTS' incorrect instructions</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/4f607b3763c84c519934736a9a287017.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">The National Tax Service (NTS) has been mired in controversy for its attitude toward a taxpayer, who was slapped with a penalty tax after following the tax agency's instructions,...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">US rapper Wiz Khalifa to hold Seoul gig after offending Koreans with lyrics</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/2691a587e8db4656bdd739e59790b2a0.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">American rapper Wiz Khalifa will stage a Seoul gig on Sept. 7, about a year after his lyrics offended many Koreans. Live Nation Korea announced Thursday that Khalifa and rappers ...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Hankook Tire fined for preventing retailers from cutting prices</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/f404395f60424c00a2ae5e0685eda1fc.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">Hankook Tire & Technology was fined 117 million won ($99,472) for forcing its dealers to sell tires at above certain prices, the Fair Trade Commission (FTC) said, Sunday.</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Giuseppe Santori: An Italian castaway on Jeju (Part 4)</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/190718_neff160_02_th590_ffd2393187eeb.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">On September 20, 1878, the Bianca Pertica, an Italian barque, was destroyed in a powerful typhoon. Only five men managed to get into a lifeboat but over the next couple of days, ...</a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><h3 class="relative"><span class="glyphicon glyphicon-share-alt icon"></span>Giuseppe Santori: An Italian castaway on Jeju (Part 3)</h3></a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Vietnam demands Chinese ships to leave Vanguard Bank</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/590_fe169dd3a0b5b.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">Vietnam has called on China to remove a survey vessel and coastguard ships from disputed waters in the South China Sea, amid a tense stand-off between the two countries since ear...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Military to fully implement use of mobile phones in barracks</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/1f270ed8cc5b47a79324b9a97908c10c.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">The military is on track to customize mobile applications before fully allowing soldiers to use private mobile phones inside the barracks to prevent discipline-related problems.</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Market expects additional rate cut in Q4</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/1e095c9eda744e8799eb2d66a7318a93.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">The decision by the Bank of Korea (BOK) on Thursday to cut its key interest rate and revise its 2019 growth outlook has been widely regarded as a signal that it will carry out an...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">3.9 magnitude earthquake strikes inland city</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/3ab53132929c45fc91fdb216278d9eeb.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">A 3.9 magnitude earthquake rattled the inland city of Sangju, 270 kilometers southeast of Seoul, Sunday, the weather agency said. The quake struck the North Gyeongsang Province c...</a>
+                            </div>
+                        </div>
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Girls' Generation star Taeyeon tops charts again</h2></a>
+                            </div>
+                            <div class="row">
+                                <a href="#"><img class="img-responsive left-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/8d949e4c7a4c4047bc0a83f7c631864b.jpg/dims/resize/160/optimize" alt=""></a>
+                                <a class="article" href="#">Singer Taeyeon has topped the charts with the soundtrack for IU's drama, “Hotel Del Luna.”On Sunday, the Girls' Generation member released “A Poem Titled You,” the third official...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="visible-lg visible-md">
+                <div class="row video">
+                    <div class="row">
+                       <h3 class="nav_h3" id="video"> <span class="glyphicon glyphicon-minus"></span><a class="video" href="#" >Video</a></h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <a href="#"><img class="img-responsive videoimg" src="http://img.koreatimes.co.kr/upload/thumbnailV2/Y2019071904523_a40dbdfdbda68.jpg/dims/resize/450/optimize" alt=""></a>
+                            <a href="#"><h3 class="headline" id="video">Rising pop queen Mabel to release new album</h3></a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <a href="#"><img class="img-responsive videoimg" src="http://img.koreatimes.co.kr/upload/thumbnailV2/메이블_웹용_7d8a62489c777.jpg/dims/resize/170/optimize" alt=""></a>
+                            <a href="#"><h4 class="headline" id="video">The K-pop effect: Korean plastic surge...</h4></a>
+                            <a href="#"><img class="img-responsive videoimg" src="http://img.koreatimes.co.kr/upload/thumbnailV2/올리웹_d50bb62ceb9c9.jpg/dims/resize/170/optimize" alt=""></a>
+                            <a href="#"><h4 class="headline" id="video">South Korean merchants boycott Japanes...</h4></a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <a href="#"><img class="img-responsive videoimg" src="http://img.koreatimes.co.kr/upload/thumbnailV2/K2019071500306_5fbc63c997326.jpg/dims/resize/170/optimize" alt=""></a>
+                            <a href="#"><h4 class="headline" id="video">Blacksmith revives his trade with the ...</h4></a>
+                            <a href="#"><img class="img-responsive videoimg" src="http://img.koreatimes.co.kr/upload/thumbnailV2/GettyImages-1139370458_6d7104a421b33.jpg/dims/resize/170/optimize" alt=""></a>
+                            <a href="#"><h4 class="headline" id="video">Communicating through food: Interview ...</h4></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2">
+                        <h3 class="nav_h3" id="sm"><span class="glyphicon glyphicon-minus icon"></span>AUTO</h3>
+                    </div>
+                    <div class="col-md-10 col-sm-10">
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Ronaldo to get wet in Seoul match this week</h2></a>
+                            </div>
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                    <img class="media-object" src="http://img.koreatimes.co.kr/upload/thumbnailV2/bf62fdffd37d4eccae19a09bea3267f5.jpg/dims/resize/234/optimize" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <ul class="article_ul">
+                                        <li class="article_li"><a href="#">Hankook Tire fined for preventing retailers from cutting prices</a></li>
+                                        <li class="article_li"><a href="#">Manufacturers mired in conflicts with unions</a></li>
+                                        <li class="article_li"><a href="#">Kia Seltos rolls out</a></li>
+                                        <li class="article_li"><a href="#">Hyundai, BMW, Ford to recall over 10,000 vehicles</a></li>
+                                        <li class="article_li"><a href="#">Gov't easing rules on ride-hailing service</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2">
+                        <h3 class="nav_h3" id="sm"><span class="glyphicon glyphicon-minus icon"></span>IT</h3>
+                    </div>
+                    <div class="col-md-10 col-sm-10">
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">Apple, Amazon concerned about Japan's export curbs</h2></a>
+                            </div>
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                    <img class="media-object" src="http://img.koreatimes.co.kr/upload/thumbnailV2/cc799d50e2d447cfb2394d69e5a42a7d.jpg/dims/resize/234/optimize" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <ul class="article_ul">
+                                        <li class="article_li"><a href="#">Samsung Galaxy S10 5G smartphone mocked by WSJ</a></li>
+                                        <li class="article_li"><a href="#">Memory chip prices jump following Japan export curbs</a></li>
+                                        <li class="article_li"><a href="#">Samsung asks partners to secure stock piles of Japanese materials</a></li>
+                                        <li class="article_li"><a href="#">Samsung SDS to build new tax management system</a></li>
+                                        <li class="article_li"><a href="#">'Sales of dryers increasing ahead of monsoon season'</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2">
+                        <h3 class="nav_h3" id="sm"><span class="glyphicon glyphicon-minus icon"></span>Finance</h3>
+                    </div>
+                    <div class="col-md-10 col-sm-10">
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">'We are nothing without history'</h2></a>
+                            </div>
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                    <img class="media-object" src="http://img.koreatimes.co.kr/upload/thumbnailV2/6addc2d0fb084c9cbb15b68e1e9154e3.jpg/dims/resize/234/optimize" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <ul class="article_ul">
+                                        <li class="article_li"><a href="#">Investors eye dividend growth stocks</a></li>
+                                        <li class="article_li"><a href="#">Financial groups strengthen IT capabilities</a></li>
+                                        <li class="article_li"><a href="#">Samgyetang for senior citizens</a></li>
+                                        <li class="article_li"><a href="#">Korea suffers steepest fall in exports</a></li>
+                                        <li class="article_li"><a href="#">Bank CEOs bracing for tougher conditions in 2nd half</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2">
+                        <h3 class="nav_h3" id="sm"><span class="glyphicon glyphicon-minus icon"></span>Entertainment</h3>
+                    </div>
+                    <div class="col-md-10 col-sm-10">
+                        <div class="row wrap">
+                            <div class="row">
+                                <a href="#"><h2 class="headline">[INTERVIEW] 'Everyday Hero' exhibition shows imperfect, human sides of superhero</h2></a>
+                            </div>
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <a href="#">
+                                    <img class="media-object" src="http://img.koreatimes.co.kr/upload/thumbnailV2/590K2019072100087_1095a53651dbf.jpg/dims/resize/234/optimize" alt="...">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <ul class="article_ul">
+                                        <li class="article_li"><a href="#">'Parasite' tops 10 mln admissions in S. Korea</a></li>
+                                        <li class="article_li"><a href="#">Divorce of Song Joong-ki, Song Hye-kyo approved: court</a></li>
+                                        <li class="article_li"><a href="#">Marianne and Margaret of Sorok Island revisited through musical</a></li>
+                                        <li class="article_li"><a href="#">US rapper Wiz Khalifa to hold Seoul gig after offending Koreans with lyrics</a></li>
+                                        <li class="article_li"><a href="#">Ronaldo to get wet in Seoul match this week</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="row">
+                    <div class="row hidden-xs hidden-sm">
+                        <a href="#"><img class="img-responsive ad" src="http://img.koreatimes.co.kr/AD/bn_wooricard_300_20190625.png/dims/resize/300/optimize" alt=""></a>
+                        <a href="#"><img class="img-responsive ad" src="http://52.231.33.44/upload/AD/bn_woori_index_300x200_20190617.jpg" alt=""></a>
+                        <a href="#"><img class="img-responsive ad" src="http://img.koreatimes.co.kr/AD/bn_seoul_20190712.jpg/dims/resize/300/optimize"></a>
+                        <a href="#"><img class="img-responsive ad" src="http://img.koreatimes.co.kr/AD/bn_seoul_20190717.jpg/dims/resize/300/optimize" alt=""></a>
+                        <a href="#"><img class="img-responsive ad" src="http://img.koreatimes.co.kr/AD/bn_iscu_2_20190712.gif" alt=""></a>
+                        <a href="#"><img class="img-responsive ad" src="http://img.koreatimes.co.kr/AD/bn_kodit_20190717.jpg/dims/resize/300/optimize" alt=""></a>
+                        <a href="#"><img class="img-responsive ad" src="http://www.koreatimes.co.kr/www2/Event/EconomicEssay/bn_EconomicEssay_20190410.jpg" alt=""></a>
+                        <a href="#"><img class="img-responsive ad" src="http://img.koreatimes.co.kr/banner/bn_Translation_20190624.jpg" alt=""></a>
+                        <a href="#"><img class="img-responsive ad" src="http://img.koreatimes.co.kr/banner/bn_ChinaWatcher_20180823.gif/dims/resize/300/optimize" alt=""></a>
+                    </div>
+                    <div class="row col-md-12 col-sm-4 col-xs-12 top10">
+                        <div class="row">
+                            <h3 class="nav_h3"><span class="glyphicon glyphicon-minus icon"></span>TOP 10 Stories</h3>
+                        </div>
+                        <div class="row">
+                            <ol>
+                                <li>Samsung Galaxy S10 5G smartphone mocked by WSJ</li>
+                                <li>Sales of Japanese beer, noodles, snacks plunge amid trade dispute</li>
+                                <li>US to request Seoul's restraint on Korea-Japan row</li>
+                                <li>Hyundai Mobis develops camera monitors to replace side mirrors</li>
+                                <li>Korea suffers steepest fall in exports</li>
+                                <li>A feud for the ages</li>
+                                <li>Apple, Amazon concerned about Japan's export curbs</li>
+                                <li>Market expects additional rate cut in Q4</li>
+                                <li>MSD Korea hit for 'excessive' employee monitoring</li>
+                                <li>Vietnam demands Chinese ships to leave Vanguard Bank</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row col-md-12 col-sm-4 col-xs-12 top10">
+                        <div class="row">
+                            <h3 class="nav_h3"><span class="glyphicon glyphicon-minus icon" style=></span>Opinion</h3>
+                        </div>
+                        <div class="row opi">
+                            <div class="row"><a class="opi_sub" href="#">Editorial</a></div>
+                            <div class="row"><a href="#"><h4 class="headline">Critical week for Korea</h4></a></div>
+                            <div class="row"><a class="opi_art" href="#">South Korea's ongoing row with Japan over the latter's trade restrictions in a...</a></div>
+                        </div>
+                        <div class="row opi">
+                            <div class="row"><a href="#"><h4 class="headline">Bad deal over extra budget</h4></a></div>
+                            <div class="row"><a class="opi_art" href="#">The political standoff over the government's supplementary budget proposal sho...</a></div>
+                        </div>
+                        <hr style="border-style:dashed;">
+                        <div class="row opi">
+                            <div class="row"><a class="opi_sub" href="#">Columns</a></div>
+                            <div class="row">
+                                <div class="col-md-8 col-sm-8 col-xs-8">
+                                    <div class="row"><a href="#"><h4 class="headline">Afghanistan: 'A decent interval'</h4></a></div>
+                                    <div class="row">
+                                    <a class="opi_art" href="#">There is movement towards peace in Afghanistan - or at least towards an end to the ...</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                    <a href="#"><img class="img-responsive right_img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/gd3_2f319b68188ec.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row opi">
+                            <div class="col-md-8 col-sm-8 col-xs-8">
+                                <div class="row"><a href="#"><h4 class="headline">Nuclear phase-out (III): Recommendation</h4></a></div>
+                                <div class="row">
+                                    <a class="opi_art" href="#">In this final article of a three part series reviewing the nuclear phase-out policy...</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-4">
+                                <a href="#"><img class="img-responsive right_img" src="http://www.koreatimes.co.kr/www2/img/Semoon_Chang_img.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <hr style="border-style:dashed;">
+                        <div class="row opi">
+                            <div class="row"><a class="opi_sub" href="#">Thoughts of the Times</a></div>
+                            <div class="row"><a href="#"><h4 class="headline">For new world order</h4></a></div>
+                            <div class="row"><a class="opi_art" href="#">During peripatetic sessions, ancient Greeks engaged in heated debates over governan...</a></div>
+                        </div>
+                    </div>
+                    <div class="row col-md-12 col-sm-4 col-xs-12 top10">
+                        <div class="row">
+                            <h3 class="nav_h3"><span class="glyphicon glyphicon-minus icon"></span>TOP 5 Entertainment News</h3>
+                        </div>
+                        <div class="row">
+                            <ol>
+                                <li>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <a href="#">
+                                            <img class="img-responsive right-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/545234fabd8a4d2e920074267198942b.jpg/dims/resize/178/optimize" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                        <a href="#">
+                                            <h5 class="headline">Divorce of Song Joong-ki, Song Hye-kyo approved: court</h5>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <a href="#">
+                                            <img class="img-responsive right-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/6b472fa55fbe46219f14dfb72eb98e9f.jpg/dims/resize/178/optimize" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                        <a href="#">
+                                            <h5 class="headline" >Wanna One Taiwanese member wants to leave Cube</h5>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <a href="#">
+                                            <img class="img-responsive right-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/590Y2019071304983_172787220ca96.jpg/dims/resize/178/optimize" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                        <a href="#">
+                                            <h5 class="headline">Ronaldo to get wet in Seoul match this week</h5>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <a href="#">
+                                            <img class="img-responsive right-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/logan-montgomery_384867e0b1d67.jpg/dims/resize/178/optimize" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                        <a href="#">
+                                            <h5 class="headline">'Yelly' American rapper woos Koreans [VIDEO]</h5>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                        <a href="#">
+                                            <img class="img-responsive right-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/2691a587e8db4656bdd739e59790b2a0.jpg/dims/resize/178/optimize" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                        <a href="#">
+                                            <h5 class="headline">US rapper Wiz Khalifa to hold Seoul gig after offending Koreans with lyrics</h5>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12" id="bottomwrap">
+                    <div class="thumbnail">
+                        <h3 class="nav_h3" id="bottom">North Korea</h3>
+                        <img class="img-responsive bottom-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/1e7f0212131b42bab7106514cdc63250.jpg/dims/resize/287/optimize" alt="...">
+                        <div class="caption">
+                            <ul>
+                                <li class="article_li">
+                                    <a href="#">
+                                        Pompeo rejects North Korean charges on military drills
+                                    </a>
+                                </li>
+                                <li class="article_li">
+                                    <a href="#">
+                                        North Korea calls Japan's export curbs politically motivated
+                                    </a>
+                                </li>
+                                <li class="article_li">
+                                    <a href="#">
+                                        Sanctions halve North Korea's 2018 trade
+                                    </a>
+                                </li>
+                                <li class="article_li">
+                                    <a href="#">
+                                        American suspect in N. Korea Embassy raid released on bail
+                                    </a>
+                                </li>
+                                <li class="article_li">
+                                    <a href="#">
+                                        China supplies 1,536 tons of refined oil to N. Korea in May: report
+                                    </a>
+                                </li>
+                                <li class="article_li">
+                                    <a href="#">
+                                        US-North Korea working-level talks likely to be delayed
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12" id="bottomwrap">
+                    <div class="thumbnail">
+                        <h3 class="nav_h3" id="bottom">National</h3>
+                        <img class="img-responsive bottom-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/e5ddcacaed9344b080deec88b3b81255.jpg/dims/resize/287/optimize" alt="...">
+                        <div class="caption">
+                            <ul>
+                                <li class="article_li"><a href="#">Opinions split over plan to ban study schools on Sunday</a></li>
+                                <li class="article_li"><a href="#">Korean music scene welcomes 2 Japanese bands despite tensions</a></li>
+                                <li class="article_li"><a href="#">Workshop offers upgrade for photography skills</a></li>
+                                <li class="article_li"><a href="#">Urging Japan's withdrawal of trade restrictions</a></li>
+                                <li class="article_li"><a href="#">[Joseon Images] Ice Cream Comes to Korea</a></li>
+                                <li class="article_li"><a href="#">Assembly committee adopts resolution on Japan's trade curbs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12" id="bottomwrap">
+                    <div class="thumbnail">
+                        <h3 class="nav_h3" id="bottom">Biz&Tech</h3>
+                        <img class="img-responsive bottom-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/917f5e86abdc42168f33963d054e7fd8.jpg/dims/resize/287/optimize" alt="...">
+                        <div class="caption">
+                            <ul>
+                                <li class="article_li"><a href="#">SK Innovation acquires 35% stake in Myanmar oil distributor</a></li>
+                                <li class="article_li"><a href="#">Red ginseng for students</a></li>
+                                <li class="article_li"><a href="#">Consumers unimpressed by Uniqlo's 2nd apology</a></li>
+                                <li class="article_li"><a href="#">Apple, Amazon concerned about Japan's export curbs</a></li>
+                                <li class="article_li"><a href="#">Samsung Galaxy S10 5G smartphone mocked by WSJ</a></li>
+                                <li class="article_li"><a href="#">Sales of Japanese beer, noodles, snacks plunge amid trade dispute</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12" id="bottomwrap">
+                    <div class="thumbnail">
+                        <h3 class="nav_h3" id="bottom">Lifestyle</h3>
+                        <img class="img-responsive bottom-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/4faf212c6d80429c9b05a6a5f5ac8201.jpg/dims/resize/287/optimize" alt="...">
+                        <div class="caption">
+                            <ul>
+                                <li class="article_li"><a href="#">Pastor reveals pang of remorse for loss of politician</a></li>
+                                <li class="article_li"><a href="#">Mud festival begins in Boryeong [PHOTOS]</a></li>
+                                <li class="article_li"><a href="#">Banyan Tree refurbishes signature restaurant</a></li>
+                                <li class="article_li"><a href="#">Around Town 2</a></li>
+                                <li class="article_li"><a href="#">Around Town 1</a></li>
+                                <li class="article_li"><a href="#">Jeolla dialect 'gwin' defines southern hospitality</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12" id="bottomwrap">
+                    <div class="thumbnail">
+                        <h3 class="nav_h3" id="bottom">Blog</h3>
+                        <img class="img-responsive bottom-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/190718_neff159_01_th590_ca2049f252c0e.jpg/dims/resize/287/optimize" alt="...">
+                        <div class="caption">
+                            <ul>
+                                <li class="article_li"><a href="#">Giuseppe Santori: An Italian castaway on Jeju (Part 3)</a></li>
+                                <li class="article_li"><a href="#">Giuseppe Santori: An Italian castaway on Jeju (Part 4)</a></li>
+                                <li class="article_li"><a href="#">Part 51: Too many bosses spoil the tourism business</a></li>
+                                <li class="article_li"><a href="#">Suicide is painless?</a></li>
+                                <li class="article_li"><a href="#">Giuseppe Santori: An Italian castaway on Jeju (Part 2)</a></li>
+                                <li class="article_li"><a href="#">Giuseppe Santori: An Italian castaway on Jeju (Part 1)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12" id="bottomwrap">
+                    <div class="thumbnail">
+                        <h3 class="nav_h3" id="bottom">Opinion</h3>
+                        <img class="img-responsive bottom-img" src="http://img.koreatimes.co.kr/upload/newsV2/images/201907/b2fa9843bfac4d9b8eb28893a16c57cf.jpg/dims/resize/287/optimize" alt="...">
+                        <div class="caption">
+                            <ul>
+                                <li class="article_li"><a href="#">Send her back</a></li>
+                                <li class="article_li"><a href="#">Abe's election win</a></li>
+                                <li class="article_li"><a href="#">Prevent conflict of interest</a></li>
+                                <li class="article_li"><a href="#">Hong Kong and Taiwan</a></li>
+                                <li class="article_li"><a href="#">Our kind of diplomat</a></li>
+                                <li class="article_li"><a href="#">Critical week for Korea</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12" id="bottomwrap">
+                    <div class="thumbnail">
+                        <h3 class="nav_h3" id="bottom">Sports</h3>
+                        <img class="img-responsive bottom-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/b399709d252740ea8c307dfc7305fce4.jpg/dims/resize/287/optimize" alt="...">
+                        <div class="caption">
+                            <ul>
+                                <li class="article_li"><a href="#">Korea looking good for 2023 Women's World Cup</a></li>
+                                <li class="article_li"><a href="#">High diving</a></li>
+                                <li class="article_li"><a href="#">South Korea falls to Kazakhstan in men's water polo classification</a></li>
+                                <li class="article_li"><a href="#">Ryu strong again as Dodgers get past Marlins 2-1</a></li>
+                                <li class="article_li"><a href="#">North Korea stand in way of 2022 World Cup progress</a></li>
+                                <li class="article_li"><a href="#">Rockies' Oh Seung-hwan to undergo season-ending elbow surgery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12" id="bottomwrap">
+                    <div class="thumbnail">
+                        <h3 class="nav_h3" id="bottom">World</h3>
+                        <img class="img-responsive bottom-img" src="http://img.koreatimes.co.kr/upload/thumbnailV2/590Y2019072005047_2fd1a6ab15c7.jpg/dims/resize/287/optimize" alt="...">
+                        <div class="caption">
+                            <ul>
+                                <li class="article_li"><a href="#">Hong Kong rally calls for police to be respected</a></li>
+                                <li class="article_li"><a href="#">MVietnam demands Chinese ships to leave Vanguard Bank</a></li>
+                                <li class="article_li"><a href="#">Fukushima beach opens to swimmers eight years after nuclear disaster</a></li>
+                                <li class="article_li"><a href="#">Iran says it seized British tanker, denies U.S. brought down drone</a></li>
+                                <li class="article_li"><a href="#">Mainland China sends back murder suspect to Hong Kong</a></li>
+                                <li class="article_li"><a href="#">Trump supports claim Google has 'treasonous' ties to China</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <hr>
+                <div class="row">
+                    <ul>
+                        <li class="footmenu"><a href="#">About Korea Times</a></li>
+                        <li class="footmenu"><a href="#">CEO Message</a></li>
+                        <li class="footmenu"><a href="#">Times History</a></li>
+                        <li class="footmenu"><a href="#">Contents Distribution</a></li>
+                        <li class="footmenu"><a href="#">Media Kit</a></li>
+                        <li class="footmenu"><a href="#">Contact Us</a></li>
+                        <li class="footmenu"><a href="#">Location</a></li>
+                        <li class="footmenu"><a href="#">Privacy Statement</a></li>
+                        <li class="footmenu"><a href="#">Terms of Service</a></li>
+                        <li class="footmenu"><a href="#">Mobile Service</a></li>
+                        <li class="footmenu"><a href="#">RSS Service</a></li>
+                        <li class="footmenu"><a href="#">Ombudsman</a></li>
+                        <li class="footmenu"><a href="#"><img class="img-responsive" src="http://www.koreatimes.co.kr/www2/img/footer_logo_hankook.jpg" alt=""></a></li>
+                        <li class="footmenu"><a href="#"><img class="img-responsive" src="http://www.koreatimes.co.kr/www2/img/footer_logo_dongwha.jpg" alt=""></a></li>
+                        <li class="footmenu"><a href="#">Code of Ethics</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="row">
+                    <ul class="col-md-12 col-sm-12 col-xs-12 footer">
+                        <li class="footer_t">CEO : Lee Byeong-eon</li>
+                        <li class="footer_t">14th Fl., Sejong-daero, 17, Jung-gu, Seoul, Korea (Postal Code: 04512)</li>
+                    </ul>
+                    <ul class="col-md-12 col-sm-12 col-xs-12 footer">
+                        <li class="footer_b">Digital News Email : webmaster@koreatimes.co.kr</li>
+                        <li class="footer_b">Subscription : 02-724-2715</li>
+                        <li class="footer_b">Copyright&#169;koreatimes.co.kr All rights reserved.</li>
+                        <li class="footer_b"><a href="#"><strong>Copyright Policy</strong></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</html>
